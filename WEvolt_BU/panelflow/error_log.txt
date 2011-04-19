@@ -1,0 +1,93 @@
+[24-Apr-2009 04:53:36] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 04:53:36] PHP Warning:  include(includes/class.mime.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 8
+[24-Apr-2009 04:53:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/class.mime.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 8
+[24-Apr-2009 04:53:36] PHP Warning:  include(includes/download_functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:53:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/download_functions.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:53:36] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 04:53:36] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 04:53:36] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 04:53:36] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 04:53:36] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 04:53:36] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 04:53:36] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 04:53:36] PHP Fatal error:  Class 'MIMETypes' not found in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 33
+[24-Apr-2009 04:55:37] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 04:55:37] PHP Warning:  include(includes/download_functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:55:37] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/download_functions.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:55:37] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 04:55:37] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 04:55:37] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 04:55:37] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 04:55:37] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 04:55:37] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 04:55:37] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 04:55:37] PHP Warning:  MIMETypes::require_once(class.types.php) [<a href='function.MIMETypes-require-once'>function.MIMETypes-require-once</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:55:37] PHP Fatal error:  MIMETypes::require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class.types.php' (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:56:30] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 04:56:30] PHP Warning:  include(includes/download_functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:56:30] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/download_functions.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:56:30] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 04:56:30] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 04:56:30] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 04:56:30] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 04:56:30] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 04:56:30] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 04:56:30] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 04:56:30] PHP Warning:  MIMETypes::require_once(class.types.php) [<a href='function.MIMETypes-require-once'>function.MIMETypes-require-once</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:56:30] PHP Fatal error:  MIMETypes::require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class.types.php' (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:57:42] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 04:57:42] PHP Warning:  include(includes/templates/common/includes/download_functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:57:42] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/templates/common/includes/download_functions.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:57:42] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 04:57:42] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 04:57:42] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 04:57:42] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 04:57:42] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 04:57:42] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 04:57:42] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 04:57:42] PHP Warning:  MIMETypes::require_once(class.types.php) [<a href='function.MIMETypes-require-once'>function.MIMETypes-require-once</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:57:42] PHP Fatal error:  MIMETypes::require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class.types.php' (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:58:48] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 04:58:48] PHP Warning:  include(includes/templates/common/includes/download_content_functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:58:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/templates/common/includes/download_content_functions.php' for inclusion (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 9
+[24-Apr-2009 04:58:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 04:58:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 04:58:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 04:58:48] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 04:58:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 04:58:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 04:58:48] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 04:58:48] PHP Warning:  MIMETypes::require_once(class.types.php) [<a href='function.MIMETypes-require-once'>function.MIMETypes-require-once</a>]: failed to open stream: No such file or directory in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 04:58:48] PHP Fatal error:  MIMETypes::require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class.types.php' (include_path='.:') in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/class.mime.php on line 14
+[24-Apr-2009 05:00:56] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:00:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 18
+[24-Apr-2009 05:00:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 19
+[24-Apr-2009 05:00:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 20
+[24-Apr-2009 05:00:56] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:00:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 25
+[24-Apr-2009 05:00:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 28
+[24-Apr-2009 05:00:56] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:02:17] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:02:17] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:02:17] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:03:00] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:03:00] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:03:00] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:03:59] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:03:59] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:03:59] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:04:06] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:04:06] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:04:06] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:04:29] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:04:29] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:04:29] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:06:04] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:06:04] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:06:04] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 32
+[24-Apr-2009 05:06:41] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:06:41] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:06:41] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 31
+[24-Apr-2009 05:07:08] PHP Notice:  Undefined index:  name in /var/www/vhosts/needcomics.com/httpdocs/panelflow/includes/init.php on line 10
+[24-Apr-2009 05:07:08] PHP Notice:  Undefined variable: DLType in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 22
+[24-Apr-2009 05:07:08] PHP Notice:  Undefined variable: EncryptID in /var/www/vhosts/needcomics.com/httpdocs/panelflow/download_content.php on line 31

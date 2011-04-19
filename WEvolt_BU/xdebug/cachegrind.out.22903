@@ -1,0 +1,20 @@
+version: 0.9.6
+cmd: /var/www/httpdocs/blog.php
+part: 1
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 4
+
+fl=/var/www/httpdocs/blog.php
+fn={main}
+
+summary: 25
+
+0 21
+cfn=php::header
+calls=1 0 0
+2 4
+

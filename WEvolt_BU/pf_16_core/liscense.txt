@@ -1,0 +1,11 @@
+﻿PANEL FLOW PRO DB MULTI COMIC v1.5
+
+SOFTWARE LISCENSE
+
+This liscense must stay in the main directory of the Panel Flow application install, removal of this liscense will cause your application to run incorrectly. 
+
+LISCENSING
+This lisecense is good for the use of the Panel Flow Application on (1) domain at a time. If you wish to run two installs at the same time, please purchase another site liscense from the Panel Flow Website. 
+
+OWNERSHIP
+The Panel Flow Application and it's code are copyright of Outland Entertainment LLC, exluding the ancillary open source software, classes and functions used for sections of the application and cannot be redistributed or repackaged in any way, shape or form. However, the user has the right to customize and addon to the code as they see fit to further customize the application for use on the liscensed domain. 

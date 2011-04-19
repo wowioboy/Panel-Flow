@@ -1,0 +1,17 @@
+UPDATE pf_hotspots set HTMLCode='<strong>Name: </strong>William Petrus<br />\r\n<strong>Alias(es):</strong> &quot;Willi&quot;<br />\r\n<strong>Affiliation: </strong>Farcooth Refugee' where EncryptID='a3c65c296c' and PageID='bf201d546ff'
+
+SELECT AppInstallation from comics where comiccrypt ='15d4e8911b9'
+
+SELECT * from comic_settings where ComicID ='15d4e8911b9'
+
+SELECT * from Applications where ID ='0'
+
+UPDATE users set ConnectKey='H0epRw7PRd6NYzxQDZg7' where encryptid='f5f8590c1c2'
+
+FROM IMPORT = \n\r\n\rEXPORT HOTSPOT = a:5:{s:8:"ascoords";s:7:"101,487";s:9:"mapcoords";s:14:"442,52,530,144";s:7:"rgentry";s:1:"0";s:6:"PageID";s:11:"bf201d546ff";s:8:"htmlcode";s:144:"<strong>Name: </strong>William Petrus<br />
+<strong>Alias(es):</strong> &quot;Willi&quot;<br />
+<strong>Affiliation: </strong>Farcooth Refugee";}
+
+<br/>MY ACTION = editUPDATE pf_hotspots SET HTMLCode='<strong>Name: </strong>William Petrus<br />\r\n<strong>Alias(es):</strong> &quot;Willi&quot;<br />\r\n<strong>Affiliation: </strong>Farcooth Refugee',RGEntryID='0' WHERE PageID='bf201d546ff' and AsterickCoords = '101,487'<br/><br/>FinishedFILE = emaillogs/HTMLHOT2009_08_10_1212_0808_3939.txt
+
+

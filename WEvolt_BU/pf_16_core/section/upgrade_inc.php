@@ -1,0 +1,1 @@
+<a href="/go/pro/"><img src='/<? echo $PFDIRECTORY;?>/images/upgrade.jpg' border="0" /></a>

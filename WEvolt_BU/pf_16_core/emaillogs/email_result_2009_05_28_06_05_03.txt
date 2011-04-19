@@ -1,0 +1,52 @@
+SELECT * from panel_email.emailtodb_email as re 
+		  join panel_panel.users as u on re.EmailFrom=u.email
+		   join panel_email.emailtodb_attach as a on a.IDEmail=re.ID
+		  where re.Status=0
+MailSubject = 2Qko||My Page Title||05/29/2009
+PostCode = 2Qko
+TARGET = My Page Title and String Position = 
+Title 1 options = My Page Title
+TARGET = 05/29/2009 and String Position = 
+Title 3 options= 05/29/2009
+DATE LIVE = 
+
+MY FILENAME = /var/www/vhosts/panelflow.com/httpdocs/email/attachments/2009_05/558cfa0c0bf5a01be71333aa3dd7455c.jpg\n\rNamearray 0 = 2009_05/558cfa0c0bf5a01be71333aa3dd7455c.jpg\n\rMY NEW FILENAME = 558cfa0c0bf5a01be71333aa3dd7455c.jpg\n\rMY Targetpath = 2009_05\n\rSOURCE DIR = /var/www/vhosts/panelflow.com/httpdocs/email/attachments/2009_05/
+SELECT cs.ComicID 
+				   from comic_settings as cs
+				  join comics as c on cs.ComicID=c.comiccrypt
+				  where (c.userid='8f53295ab3' or c.CreatorID='8f53295ab3') and cs.PostCode='2Qko'
+
+SELECT * 
+			FROM comics as c 
+			JOIN comic_settings as cs on c.comiccrypt=cs.ComicID 
+			JOIN template_skins as ts on ts.SkinCode=cs.Skin 
+			JOIN Applications as a on c.AppInstallation=a.ID 
+			WHERE c.comiccrypt='bbcbff5c195'
+
+MY originalimage= /var/www/vhosts/panelflow.com/httpdocs/email/attachments/2009_05/558cfa0c0bf5a01be71333aa3dd7455c.jpg
+
+MY Finalimage= /var/www/vhosts/panelflow.com/httpdocs/email/attachments/2009_05/e83d358ab84549a9b20289339d2ac709.jpg
+
+FINAL PAGE IMAGE = /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/images/pages/e83d358ab84549a9b20289339d2ac709.jpg
+
+STRING = convert /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/images/pages/e83d358ab84549a9b20289339d2ac709.jpg -resize 320 /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/iphone/images/pages/320/e83d358ab84549a9b20289339d2ac709.jpg
+STRING = convert /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/images/pages/e83d358ab84549a9b20289339d2ac709.jpg -resize 480 /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/iphone/images/pages/480/e83d358ab84549a9b20289339d2ac709.jpg
+
+STRING = convert /var/www/vhosts/panelflow.com/httpdocs/email/attachments/2009_05/e83d358ab84549a9b20289339d2ac709.jpg -resize 480 -quality 60 /var/www/vhosts/panelflow.com/httpdocs/comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_lg.jpg
+
+SELECT Position from comic_pages WHERE Position=(SELECT MAX(Position) FROM comic_pages where ComicID='bbcbff5c195' and PageType='pages')
+
+INSERT into comic_pages(ComicID, Title, Comment, Image, ImageDimensions, Datelive, ThumbSm, ThumbMd, ThumbLg, Filename, Position, UploadedBy, PageType) values ('bbcbff5c195','05/29/2009', 'testsetset\r\n','e83d358ab84549a9b20289339d2ac709.jpg','650x1021', '05-28-2009','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_sm.jpg','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_md.jpg','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_lg.jpg','e83d358ab84549a9b20289339d2ac709.jpg', 7,'8f53295ab3','pages')
+
+UPDATE comics SET pages='7', PagesUpdated='2009-05-28 18:00:01' WHERE comiccrypt='bbcbff5c195'
+
+SELECT ID from comic_pages WHERE ComicID='bbcbff5c195' and Position='7' and PageType='pages'
+
+UPDATE comic_pages SET EncryptPageID='456ac9b041b' WHERE ID='1051'
+
+\n\rUPDATE users set ConnectKey='6RE08gFUNCK9oTYLB5u8' where encryptid='8f53295ab3'\n\r\n\r\n\r-----------------------------------FROM CONNECTOR-------------------\n\r\n\r\n\r\n\r-----------------------------------FROM CONNECTOR-------------------\n\r\n\rMY PAGE TPYE = pages<br/><br/>export_pages RESULT = a:18:{s:5:"title";s:10:"05/29/2009";s:7:"comment";s:10:"testsetset";s:8:"filename";s:36:"e83d358ab84549a9b20289339d2ac709.jpg";s:15:"imagedimensions";s:8:"650x1021";s:8:"datelive";s:10:"05-28-2009";s:7:"thumbsm";s:85:"comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_sm.jpg";s:7:"thumbmd";s:85:"comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_md.jpg";s:7:"thumblg";s:85:"comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_lg.jpg";s:7:"chapter";s:1:"0";s:7:"episode";s:1:"0";s:11:"episodedesc";s:0:"";s:13:"episodewriter";s:0:"";s:15:"episodecolorist";s:0:"";s:13:"episodeartist";s:0:"";s:15:"episodeletterer";s:0:"";s:8:"pagetype";s:5:"pages";s:8:"position";s:1:"7";s:9:"pageimage";s:75:"comics/F/Finns_Adventures/images/pages/e83d358ab84549a9b20289339d2ac709.jpg";}
+
+<br/><br/>MY LOCALNAME = ../../comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_sm.jpg<br/><br/>MY LOCALNAME = ../../comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_md.jpg<br/><br/>MY LOCALNAME = ../../comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_lg.jpg<br/><br/>MY LOCALNAME = ../../comics/F/Finns_Adventures/images/pages/e83d358ab84549a9b20289339d2ac709.jpg<br/><br/><br/>INSERT into comic_pages(ComicID, Title, Comment, Image, ImageDimensions, Datelive, ThumbSm, ThumbMd, ThumbLg, Chapter, Episode, EpisodeDesc, EpisodeWriter,EpisodeArtist,EpisodeColorist,EpisodeLetterer,Filename, Position, UploadedBy,EncryptPageID, PageType) values ('bbcbff5c195','05/29/2009', 'testsetset','e83d358ab84549a9b20289339d2ac709.jpg','650x1021', '05-28-2009','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_sm.jpg','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_md.jpg','comics/F/Finns_Adventures/images/pages/thumbs/e83d358ab84549a9b20289339d2ac709_lg.jpg',0,0,'','','','','','e83d358ab84549a9b20289339d2ac709.jpg',7,'8f53295ab3','456ac9b041b','pages')<br/><br/>Finished\n\r\n\rUPDATE panel_email.emailtodb_email set Status=1 where ID='40'
+FILE = /var/www/vhosts/panelflow.com/httpdocs/pf_16_core/emaillogs/email_result_2009_05_28_06_05_03.txt
+
+

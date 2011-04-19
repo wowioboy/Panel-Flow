@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+   <channel>
+      <title>ReadWriteWeb</title>
+      <link>http://www.readwriteweb.com/</link>
+      <description />
+      <language>en</language>
+      <copyright>Copyright 2009 Richard MacManus</copyright>
+
+    
+      <lastBuildDate>Fri, 03 Jul 2009 15:40:15 -0800</lastBuildDate>
+      <generator>http://www.sixapart.com/movabletype/?v=4.23-en</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs> 
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://www.needcomics.com/panelflow/feed.xml" type="application/rss+xml" />
+      
+    <item>
+         <title>Ads Spotted on Twitter.com - Did You Notice?</title>
+
+		<description>&lt;p&gt;&lt;img src="http://www.panelflow.com/comics/S/Stupid_Users/images/pages/thumbs/92cf3c2c80e2e931afd6c67279a60c4b_md.jpg"&gt;</description>
+         <link>http://feedproxy.google.com/~r/readwriteweb/~3/jhBRIuDN1rY/ads_spotted_on_twittercom_-_did_you_notice.php</link>
+         <guid isPermaLink="false">http://www.readwriteweb.com/archives/ads_spotted_on_twittercom_-_did_you_notice.php</guid>
+         <category>Advertising Market</category>
+         <pubDate>Fri, 03 Jul 2009 15:40:15 -0800</pubDate>
+
+
+      <feedburner:origLink>http://www.readwriteweb.com/archives/ads_spotted_on_twittercom_-_did_you_notice.php</feedburner:origLink></item>
+
+</channel>
+
+</rss>  

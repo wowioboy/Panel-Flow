@@ -1,0 +1,7 @@
+<template>
+	<information>
+		<author>Matt Jacobs</author>
+		<title>Lefthand</title>
+		<adpositions>1,2,4,5</adpositions>
+	</information>
+</template>

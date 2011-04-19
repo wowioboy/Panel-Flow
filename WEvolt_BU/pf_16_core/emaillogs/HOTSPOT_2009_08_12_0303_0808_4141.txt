@@ -1,0 +1,21 @@
+INSERT into pf_hotspots (ComicID, PageID, AsterickCoords, HotSpotCoords,  CreatedBy) values ('8bf1211f17a','d2cdf0476dd','356,384','364,321,437,396','d67d8ab427') 
+
+SELECT ID from pf_hotspots where ComicID='8bf1211f17a' and PageID='d2cdf0476dd' and  AsterickCoords='356,384'
+
+UPDATE pf_hotspots set EncryptID = '2723d0926d' where ID='109'
+
+SELECT AppInstallation from comics where comiccrypt ='8bf1211f17a'
+
+SELECT * from comic_settings where ComicID ='8bf1211f17a'
+
+SELECT * from Applications where ID ='0'
+
+UPDATE users set ConnectKey='AkF932UN5pL374gowRy1' where encryptid='d67d8ab427'
+
+AP LINK = http://www.needcomics.com/panelflow/
+
+FROM IMPORT = EXPORT HOTSPOT = a:5:{s:8:"ascoords";s:7:"356,384";s:9:"mapcoords";s:15:"364,321,437,396";s:7:"rgentry";s:1:"0";s:6:"PageID";s:11:"d2cdf0476dd";s:8:"htmlcode";s:0:"";}
+
+<br/>MY ACTION = newINSERT into pf_hotspots (ComicID, PageID, AsterickCoords, HotSpotCoords, RGEntryID,HTMLCode,CreatedBy,EncryptID) values ('8bf1211f17a','d2cdf0476dd','356,384','364,321,437,396','0','','d67d8ab427','2723d0926d')<br/><br/>FinishedFILE = ../emaillogs/HOTSPOT_2009_08_12_0303_0808_4141.txt
+
+

@@ -1,0 +1,13 @@
+version: 0.9.6
+cmd: /var/www/httpdocs/includes/home_300_ad_inc.php
+part: 1
+
+events: Time
+
+fl=/var/www/httpdocs/includes/home_300_ad_inc.php
+fn={main}
+
+summary: 3
+
+0 3
+

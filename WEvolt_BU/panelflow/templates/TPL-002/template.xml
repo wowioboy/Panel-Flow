@@ -1,0 +1,7 @@
+<template>
+	<information>
+		<author>Matt Black</author>
+		<title>Righthand</title>
+		<adpositions>1,3,4,5</adpositions>
+	</information>
+</template>

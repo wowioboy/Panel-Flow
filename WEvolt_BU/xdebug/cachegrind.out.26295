@@ -1,0 +1,34 @@
+version: 0.9.6
+cmd: /var/www/httpdocs/poop.php
+part: 1
+
+events: Time
+
+fl=php:internal
+fn=php::fopen
+3 363547
+
+fl=php:internal
+fn=php::fread
+4 77
+
+fl=php:internal
+fn=php::var_dump
+6 82
+
+fl=/var/www/httpdocs/poop.php
+fn={main}
+
+summary: 363808
+
+0 102
+cfn=php::fopen
+calls=1 0 0
+3 363547
+cfn=php::fread
+calls=1 0 0
+4 77
+cfn=php::var_dump
+calls=1 0 0
+6 82
+

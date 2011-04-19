@@ -1,0 +1,7 @@
+<table cellpadding="0" cellspacing="0" border="0"><tr><td width="300" align="center" valign="top">
+<img src="/<? echo $_SESSION['basefolder'];?>/<? echo $_SESSION['projectfolder'];?>/<? echo stripslashes($DownloadsArray->Image);?>" alt="" border='1' id='pageimage'  <? if (($DownloadsArray->DlType == 1)||($DownloadsArray->DlType == 2)||($DownloadsArray->DlType == 5)) {?>width="250"<? }?>/>
+</td><td valign="top" height="600"><div class="messageinfo_black">ARE YOU SURE YOU WANT TO DELETE THIS ITEM? </div><div class="spacer"></div><div class='sender_name'><b>NAME:</b> <? echo stripslashes($DownloadsArray->Name);?><div class="spacer"></div><form action="/<? echo $_SESSION['pfdirectory'];?>/section/downloads_inc.php" method="post"><div align="center"><input type="submit" value ='YES' style="width:100px; background-color:#FF6600; color:#FFFFFF; font-weight:bold;"/><div class="spacer"></div><input type="button" value="CANCEL" onClick="window.location='/<? echo $_SESSION['pfdirectory'];?>/section/downloads_inc.php';"  style="width:100px;"/></div><input type="hidden" value="<? echo $_GET['dlid'];?>" name="txtItem" />
+<input type="hidden" value="delete" name="a" />
+<input type="hidden" value="delete" name="txtAction" /></form></td></tr></table>  
+
+ 

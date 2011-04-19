@@ -1,0 +1,1 @@
+<div align="center"><img src="/<? echo $PFDIRECTORY;?>/images/coming.gif" /></div>

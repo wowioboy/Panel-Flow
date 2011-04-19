@@ -1,0 +1,629 @@
+body, html {
+margin:0px;
+padding:0px;
+font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+color:#000000;
+font-size:10px;
+}
+
+body, html #comicwrapper {
+height: auto;
+}
+
+
+/*-------------------------AD SELECTOR --------------------------*/
+
+#readerspace {
+height:400px;
+background-color:#CCCCCC;
+color:#000000;
+font-size:18px;
+text-align:center;
+font-weight:bold;
+padding:5px;
+vertical-align:middle;
+}
+
+.adlink_hover {
+background-color:#FFFFFF;
+color:#000000;
+font-size:16px;
+text-align:center;
+font-weight:bold;
+cursor:pointer;
+}
+
+.adlink {
+background-color:#FF6600;
+color:#FFFFFF;
+font-size:16px;
+cursor:pointer;
+text-align:center;
+font-weight:bold;
+
+}
+
+.noadlink {
+text-align:center;
+font-weight:bold;
+background-color:#e5e5e5;
+color:#000000;
+
+}
+.submenu {
+text-align:left;
+color:#ff8c3f;
+padding-left:225px;
+padding-bottom:3px;
+}
+
+.submenu a:link {
+color:#ff8c3f;
+
+}
+.submenu a:visited {
+color:#ff8c3f;
+}
+.submenu a:hover {
+color:#000000;
+text-decoration:underline;
+
+}
+
+
+
+.pagetitleLarge {
+font-size:16px;
+color:#FFFFFF;
+}
+.warning {
+font-size:16px;
+color:#FF9900;
+}
+#comicwrapper {
+height: 600px; /* for IE */
+min-height: 600px; /* for not-IE */
+padding:5px;
+}
+
+.pagelinks {
+text-align:right;
+color:#FFFFFF;
+}
+.pagelinks a:link {
+color:#0099FF;
+}
+.pagelinks a:hover {
+color:#FF6600;
+}
+.pagelinks a:visited {
+
+color:#0099FF;
+}
+
+
+/*--------------ADMIN CONTENT BOX----------------------*/
+.admin_box{display:block}
+.admin_box *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#000000}
+.admin_box1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #919191;
+  border-right:1px solid #919191;
+  background:#3f3f3f}
+.admin_box2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #e5e5e5;
+  border-right:1px solid #e5e5e5;
+  background:#303030}
+.admin_box3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #303030;
+  border-right:1px solid #303030;}
+.admin_box4{
+  border-left:1px solid #919191;
+  border-right:1px solid #919191}
+.admin_box5{
+  border-left:1px solid #3f3f3f;
+  border-right:1px solid #3f3f3f}
+.admin_boxfg{
+  background:#000000}
+
+#pagelisting {
+padding-top:5px;
+width:810px;
+}
+#adminboxwrapper{
+width:850px;
+}
+.pageboxtext{
+font-size:12px;
+}
+/*--------------------------------------------COMIC PAGE ------------------------------*/
+.page_box{display:block}
+.page_box *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#FCE0BC}
+.page_box1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #6c6050;
+  border-right:1px solid #6c6050;
+  background:#bda88d}
+.page_box2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #191612;
+  border-right:1px solid #191612;
+  background:#ccb598}
+.page_box3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #ccb598;
+  border-right:1px solid #ccb598;}
+.page_box4{
+  border-left:1px solid #6c6050;
+  border-right:1px solid #6c6050}
+.page_box5{
+  border-left:1px solid #bda88d;
+  border-right:1px solid #bda88d}
+.page_boxfg{
+  background:#FCE0BC}
+
+
+/*---------------------------------------CHAPTER BOX --------------------------------------*/
+.chapter_box{display:block}
+.chapter_box *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#A3C4A0}
+.chapter_box1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #465444;
+  border-right:1px solid #465444;
+  background:#7a9378}
+.chapter_box2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #101310;
+  border-right:1px solid #101310;
+  background:#849e81}
+.chapter_box3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #849e81;
+  border-right:1px solid #849e81;}
+.chapter_box4{
+  border-left:1px solid #465444;
+  border-right:1px solid #465444}
+.chapter_box5{
+  border-left:1px solid #7a9378;
+  border-right:1px solid #7a9378}
+.chapter_boxfg{
+  background:#A3C4A0}
+
+
+
+/*---------------------------------------EPISODE BOX ---------------------------------*/
+.episode_box{display:block}
+.episode_box *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#B5CBFC}
+.episode_box1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #4d576c;
+  border-right:1px solid #4d576c;
+  background:#8798bd}
+.episode_box2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #121419;
+  border-right:1px solid #121419;
+  background:#92a4cc}
+.episode_box3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #92a4cc;
+  border-right:1px solid #92a4cc;}
+.episode_box4{
+  border-left:1px solid #4d576c;
+  border-right:1px solid #4d576c}
+.episode_box5{
+  border-left:1px solid #8798bd;
+  border-right:1px solid #8798bd}
+.episode_boxfg{
+  background:#B5CBFC}
+
+/*----------------------------------------WHITE BOX ---------------------------*/
+
+.white_box{display:block}
+.white_box *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#FFFFFF}
+.white_box1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #6d6d6d;
+  border-right:1px solid #6d6d6d;
+  background:#bfbfbf}
+.white_box2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #191919;
+  border-right:1px solid #191919;
+  background:#cecece}
+.white_box3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #cecece;
+  border-right:1px solid #cecece;}
+.white_box4{
+  border-left:1px solid #6d6d6d;
+  border-right:1px solid #6d6d6d}
+.white_box5{
+  border-left:1px solid #bfbfbf;
+  border-right:1px solid #bfbfbf}
+.white_boxfg{
+  background:#FFFFFF}
+
+
+.hidden { display:none; }
+.showing { display:block; }
+.error { margin:25px auto; text-align:center; font-size:1.2em; color:#f00; font-weight:bold; }
+#cropWrap { margin:10px 0 0 0; }
+#wait { padding:15px 0 0 0; text-align:center; }
+div.info { width:500px; font-size:1.2em; margin:15px auto 30px auto; line-height:1.7em; border:1px solid #ccc; background:#fff; padding:20px; }
+div.info h1 { font-size:1.6em; border-bottom:1px solid #000; padding:0 0 6px 0; margin:0 0 10px 0; }
+div.info p { margin:0 0 1.2em 0; }
+
+
+/* INITIAL UPLOAD FORM */
+form { margin:5px 0 0 0; }
+form#imigUpload { display:block; background:#fff; padding:20px; }
+form legend { font-size:1.4em; font-weight:bold; letter-spacing:1px; }
+form label { font-size:1.1em; margin:0 0 4px 0; }
+form input {border:1px solid #FF9900; }
+form div.select { clear:both; padding:12px 0; }
+form select { display:block;  background:#fafafa; }
+form div#submit, form div#wait { height:30px; padding:5px 0 0 0; }  
+form div#submit input { width:75px; margin:0 auto; }
+
+
+/* FORMS WHICH STORE EDITING DATA */
+form.frmCrop legend, form.frmResize legend { display:none; }
+
+
+/* RESIZE TRACK AND HANDLE */
+#resizeTrack { width:200px; height:5px; background:transparent url(../images/bg_track.gif) left top no-repeat; margin:0 0 20px 0; }
+#resizeHandle { cursor:move; width:5px; height:10px; background:transparent url(../images/bg_handle.gif) left top no-repeat; }
+
+/* ROTATED IMAGES */
+#rotatedImages { padding-top:30px; }
+#rotatedImages h2 { margin:20px 0 5px 0; }
+#showRotatedImages { font-size:1.1em; padding-top:10px; }
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+
+.spacer {
+height:10px;
+}
+
+.downloadimage {
+text-align:center;
+}
+
+.dltitle {
+text-align:center;
+font-size:10px;
+}
+
+#modrightside {
+width: 11px;
+background-image:url(../images/right_side.jpg);
+background-repeat:repeat-y;
+
+}
+
+#modleftside {
+width: 11px;
+background-image:url(../images/left_side.jpg);
+background-repeat:repeat-y;
+
+}
+
+#modtop {
+height:13px;
+background-image:url(../images/mod_top.png);
+background-repeat:repeat-x;
+}
+
+.boxcontent {
+color:#000000;
+background-color:#FFFFFF;
+}
+
+#modbottom {
+height:13px;
+background-image:url(../images/mod_bottom.png);
+background-repeat:repeat-x;
+
+}
+
+#modbottomleft{
+width:11px;
+height:13px; 
+background-image:url(../images/mod_bottom_left.png);
+background-repeat:no-repeat;
+}
+
+#modtopleft{
+width:11px;
+height:13px; 
+background-image:url(../images/mod_top_left.png);
+background-repeat:no-repeat;
+}
+
+#modtopright{
+width:11px;
+height:13px; 
+background-image:url(../images/mod_top_right.png);
+background-repeat:no-repeat;
+}
+
+#modbottomright{
+width:11px;
+height:13px; 
+background-image:url(../images/mod_bottom_right.png);
+background-repeat:no-repeat;
+}
+
+
+
+.dllink {
+text-align:center;
+font-size:10px;
+}
+
+
+
+.pageheader{
+font-size:16px;
+font-weight:bold;
+
+}
+
+.creatorwrapper {
+padding-left:10px;
+
+}
+
+.imageName {
+padding-top:10px;
+font-size:12px;
+font-weight:bold;
+color:white;
+}
+
+a:link {
+font-size:10px;
+text-decoration:none;
+}    
+ /* unvisited link */
+ 
+a:visited {
+font-size:10px;
+text-decoration:none;
+}  /* visited link */
+
+a:hover {
+font-size:10px;
+text-decoration:none;
+}   /* mouse over link */
+
+a:active {
+font-size:10px;
+text-decoration:none;
+}   /* selected link */
+
+
+
+
+#modtext a:active {color:#CCCCCC; font-size: 10px; text-decoration: none;}
+#modtext a:visited {color:#CCCCCC; font-size: 10px; text-decoration: none;}
+#modtext a:hover {color:#CCCCCC; font-size: 10px; text-decoration: none;}
+#modtext a:focus {color:#CCCCCC; font-size: 10px; text-decoration: none;}
+#modtext a:link {color:#CCCCCC; font-size: 10px; text-decoration: none;}
+
+.locationwrapper {
+padding-left:5px;
+}
+
+
+.header {
+font-size:14px;
+font-weight:bold;
+}
+.notlogged {
+text-align:center;
+font-size:10px;
+}
+
+.rightwrapper{
+text-align:left;
+padding-right:5px;
+}
+
+.leftwrapper{
+/* padding-left:18px;*/
+text-align:left;
+padding-right:20px;
+}
+
+.username {
+font-size:10px;
+font-weight:bold;
+}
+
+.notespacer{
+height:3px;
+}
+
+.halfspacer {
+height:5px;
+}
+
+.smspacer {
+height:2px;
+}
+.commentdate {
+font-size:10px;
+font-weight:100;
+font-style:italic;
+}
+
+.recdescription {
+font-size:10px;
+font-weight:100;
+padding-left:5px;
+}
+
+.rectitle {
+font-size:10px;
+font-weight:bold;
+
+}
+.nocomments{
+font-size:14px;
+font-weight:bold;
+padding:20px;
+text-align:center;
+}
+
+.infotext{
+font-size:10px;
+font-weight:100;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+.chartext{
+font-size:10px;
+font-weight:100;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+.chartitle{
+font-size:10px;
+font-weight:bold;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+.comment{
+font-size:10px;
+font-weight:100;
+}
+.comicinfo {
+font-weight:bold;
+font-size:10px;
+}
+
+.comments {
+padding-left:10px;
+font-size:10px;
+}
+
+.comments {
+
+}
+
+
+.authornote {
+font-weight:bold;
+font-size:12px;
+}
+
+.legal {
+padding-top:15px;
+font-size:10px;
+text-align:center;
+}
+
+.episodetitle {
+font-size:14px;
+font-weight:bold;
+}
+
+.episodesummary {
+font-size:12px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.chaptername {
+font-size:12px;
+background-color:#f6ecea;
+}
+
+.chapterlinks {
+text-decoration:none;
+}
+.chapterlinks a {
+color:#FF6600;
+}
+.chapterlinks a:hover {
+color:#000000;
+}
+
+.chapterlinks a:link {
+color:#FF6600;
+}
+

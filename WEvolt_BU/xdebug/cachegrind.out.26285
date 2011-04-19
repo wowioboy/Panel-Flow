@@ -1,0 +1,9120 @@
+version: 0.9.6
+cmd: /var/www/httpdocs/404.php
+part: 1
+
+events: Time
+
+fl=php:internal
+fn=php::ini_set
+2 2
+
+fl=php:internal
+fn=php::session_start
+5 36
+
+fl=php:internal
+fn=php::define
+2 0
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=php:internal
+fn=php::define
+4 0
+
+fl=php:internal
+fn=php::define
+5 0
+
+fl=php:internal
+fn=php::dirname
+6 1
+
+fl=php:internal
+fn=php::realpath
+6 1
+
+fl=php:internal
+fn=php::define
+6 0
+
+fl=php:internal
+fn=php::define
+7 0
+
+fl=php:internal
+fn=php::define
+8 0
+
+fl=php:internal
+fn=php::define
+9 1
+
+fl=php:internal
+fn=php::define
+11 1
+
+fl=php:internal
+fn=php::define
+12 0
+
+fl=php:internal
+fn=php::define
+13 0
+
+fl=php:internal
+fn=php::define
+14 1
+
+fl=/var/www/httpdocs/classes/defineThis.php
+fn=include::/var/www/httpdocs/classes/defineThis.php
+1 108
+cfn=php::define
+calls=1 0 0
+2 0
+cfn=php::define
+calls=1 0 0
+3 0
+cfn=php::define
+calls=1 0 0
+4 0
+cfn=php::define
+calls=1 0 0
+5 0
+cfn=php::dirname
+calls=1 0 0
+6 1
+cfn=php::realpath
+calls=1 0 0
+6 1
+cfn=php::define
+calls=1 0 0
+6 0
+cfn=php::define
+calls=1 0 0
+7 0
+cfn=php::define
+calls=1 0 0
+8 0
+cfn=php::define
+calls=1 0 0
+9 1
+cfn=php::define
+calls=1 0 0
+11 1
+cfn=php::define
+calls=1 0 0
+12 0
+cfn=php::define
+calls=1 0 0
+13 0
+cfn=php::define
+calls=1 0 0
+14 1
+
+fl=/var/www/httpdocs/functions/global.php
+fn=include::/var/www/httpdocs/functions/global.php
+1 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=include::/var/www/httpdocs/includes/db.class.php
+1 4
+
+fl=/var/www/httpdocs/classes/tracker.php
+fn=include::/var/www/httpdocs/classes/tracker.php
+1 4
+
+fl=/var/www/httpdocs/models/Users.php
+fn=include_once::/var/www/httpdocs/models/Users.php
+1 0
+
+fl=/var/www/httpdocs/classes/user.php
+fn=include::/var/www/httpdocs/classes/user.php
+1 122
+cfn=include_once::/var/www/httpdocs/models/Users.php
+calls=1 0 0
+2 0
+
+fl=php:internal
+fn=php::dirname
+87 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+25 14
+cfn=php::dirname
+calls=1 0 0
+87 0
+
+fl=/var/www/httpdocs/classes/WideImage/Exception.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Exception.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+27 1
+
+fl=/var/www/httpdocs/classes/WideImage/Image.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Image.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+28 2
+
+fl=/var/www/httpdocs/classes/WideImage/TrueColorImage.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/TrueColorImage.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+29 0
+
+fl=/var/www/httpdocs/classes/WideImage/PaletteImage.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/PaletteImage.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+31 1
+
+fl=/var/www/httpdocs/classes/WideImage/Coordinate.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Coordinate.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+32 0
+
+fl=/var/www/httpdocs/classes/WideImage/Canvas.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Canvas.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+33 0
+
+fl=/var/www/httpdocs/classes/WideImage/MapperFactory.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/MapperFactory.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+34 1
+
+fl=/var/www/httpdocs/classes/WideImage/OperationFactory.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/OperationFactory.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+36 0
+
+fl=/var/www/httpdocs/classes/WideImage/Font/TTF.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Font/TTF.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+37 0
+
+fl=/var/www/httpdocs/classes/WideImage/Font/GDF.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Font/GDF.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=WideImage::path
+38 0
+
+fl=/var/www/httpdocs/classes/WideImage/Font/PS.php
+fn=require_once::/var/www/httpdocs/classes/WideImage/Font/PS.php
+1 0
+
+fl=/var/www/httpdocs/classes/WideImage/WideImage.php
+fn=include_once::/var/www/httpdocs/classes/WideImage/WideImage.php
+1 3169
+cfn=WideImage::path
+calls=1 0 0
+25 15
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Exception.php
+calls=1 0 0
+25 0
+cfn=WideImage::path
+calls=1 0 0
+27 1
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Image.php
+calls=1 0 0
+27 0
+cfn=WideImage::path
+calls=1 0 0
+28 2
+cfn=require_once::/var/www/httpdocs/classes/WideImage/TrueColorImage.php
+calls=1 0 0
+28 0
+cfn=WideImage::path
+calls=1 0 0
+29 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/PaletteImage.php
+calls=1 0 0
+29 0
+cfn=WideImage::path
+calls=1 0 0
+31 1
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Coordinate.php
+calls=1 0 0
+31 0
+cfn=WideImage::path
+calls=1 0 0
+32 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Canvas.php
+calls=1 0 0
+32 0
+cfn=WideImage::path
+calls=1 0 0
+33 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/MapperFactory.php
+calls=1 0 0
+33 0
+cfn=WideImage::path
+calls=1 0 0
+34 1
+cfn=require_once::/var/www/httpdocs/classes/WideImage/OperationFactory.php
+calls=1 0 0
+34 0
+cfn=WideImage::path
+calls=1 0 0
+36 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Font/TTF.php
+calls=1 0 0
+36 0
+cfn=WideImage::path
+calls=1 0 0
+37 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Font/GDF.php
+calls=1 0 0
+37 0
+cfn=WideImage::path
+calls=1 0 0
+38 0
+cfn=require_once::/var/www/httpdocs/classes/WideImage/Font/PS.php
+calls=1 0 0
+38 0
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 1
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 1
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 25
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 1
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 5316
+
+fl=php:internal
+fn=php::mysql_select_db
+53 985
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+36 93
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 1
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 5316
+cfn=php::mysql_select_db
+calls=1 0 0
+53 985
+
+fl=php:internal
+fn=php::mysql_query
+140 2377
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+142 3
+
+fl=php:internal
+fn=php::mysql_fetch_object
+144 19
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->queryUniqueObject
+44 51
+cfn=php::mysql_query
+calls=1 0 0
+140 2377
+cfn=DB->debug
+calls=1 0 0
+142 3
+cfn=php::mysql_fetch_object
+calls=1 0 0
+144 19
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+59 1
+
+fl=php:internal
+fn=php::date
+60 97
+
+fl=php:internal
+fn=php::md5
+63 3
+
+fl=/var/www/httpdocs/classes/user.php
+fn=user->getUserInfo
+29 95
+cfn=DB->DB
+calls=1 0 0
+36 6428
+cfn=DB->queryUniqueObject
+calls=1 0 0
+44 2450
+cfn=DB->close
+calls=1 0 0
+59 1
+cfn=php::date
+calls=1 0 0
+60 97
+cfn=php::md5
+calls=1 0 0
+63 3
+
+fl=/var/www/httpdocs/classes/user.php
+fn=user->__construct
+77 18
+cfn=user->getUserInfo
+calls=1 0 0
+29 9077
+
+fl=php:internal
+fn=php::ini_set
+87 1
+
+fl=php:internal
+fn=php::ini_set
+88 0
+
+fl=php:internal
+fn=php::dirname
+89 0
+
+fl=php:internal
+fn=php::ini_set
+89 1
+
+fl=php:internal
+fn=php::error_reporting
+90 0
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 3
+
+fl=php:internal
+fn=php::explode
+342 2
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 24
+cfn=php::microtime
+calls=1 0 0
+342 3
+cfn=php::explode
+calls=1 0 0
+342 2
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 998
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+100 73
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 998
+
+fl=/var/www/httpdocs/includes/init.php
+fn=include::/var/www/httpdocs/includes/init.php
+1 3246
+cfn=php::ini_set
+calls=1 0 0
+2 2
+cfn=php::session_start
+calls=1 0 0
+5 36
+cfn=include::/var/www/httpdocs/classes/defineThis.php
+calls=1 0 0
+45 123
+cfn=include::/var/www/httpdocs/functions/global.php
+calls=1 0 0
+46 0
+cfn=include::/var/www/httpdocs/includes/db.class.php
+calls=1 0 0
+47 4
+cfn=include::/var/www/httpdocs/classes/tracker.php
+calls=1 0 0
+48 4
+cfn=include::/var/www/httpdocs/classes/user.php
+calls=1 0 0
+49 123
+cfn=include_once::/var/www/httpdocs/classes/WideImage/WideImage.php
+calls=1 0 0
+50 3200
+cfn=user->__construct
+calls=1 0 0
+77 9095
+cfn=php::ini_set
+calls=1 0 0
+87 1
+cfn=php::ini_set
+calls=1 0 0
+88 0
+cfn=php::dirname
+calls=1 0 0
+89 0
+cfn=php::ini_set
+calls=1 0 0
+89 1
+cfn=php::error_reporting
+calls=1 0 0
+90 0
+cfn=DB->DB
+calls=1 0 0
+100 1104
+
+fl=/var/www/httpdocs/classes/site.php
+fn=include_once::/var/www/httpdocs/classes/site.php
+1 5
+
+fl=php:internal
+fn=php::is_null
+37 1
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 3
+
+fl=php:internal
+fn=php::explode
+342 1
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 26
+cfn=php::microtime
+calls=1 0 0
+342 3
+cfn=php::explode
+calls=1 0 0
+342 1
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 3
+
+fl=php:internal
+fn=php::mysql_select_db
+53 972
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+22 65
+cfn=php::is_null
+calls=1 0 0
+37 1
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 31
+cfn=php::mysql_connect
+calls=1 0 0
+52 3
+cfn=php::mysql_select_db
+calls=1 0 0
+53 972
+
+fl=php:internal
+fn=php::mysql_query
+64 1564
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 4
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+24 36
+cfn=php::mysql_query
+calls=1 0 0
+64 1564
+cfn=DB->debug
+calls=1 0 0
+66 4
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 12
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+25 26
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 12
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+25 22
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+31 0
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->__construct
+4 90
+cfn=DB->DB
+calls=1 0 0
+22 1075
+cfn=DB->query
+calls=1 0 0
+24 1605
+cfn=DB->fetchNextObject
+calls=1 0 0
+25 40
+cfn=DB->fetchNextObject
+calls=1 0 0
+25 24
+cfn=DB->close
+calls=1 0 0
+31 0
+
+fl=/var/www/httpdocs/functions/global.php
+fn=curPageURL
+6 5
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawHeader
+17 8
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->getGlobalDescription
+53 0
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->getGlobalKeywords
+54 0
+
+fl=php:internal
+fn=php::time
+1273 0
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawCSS
+61 25
+cfn=php::time
+calls=1 0 0
+1273 0
+
+fl=php:internal
+fn=php::date
+1333 34
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawGlobalScripts
+66 10
+cfn=php::date
+calls=1 0 0
+1333 34
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawJQueryScripts
+69 11
+
+fl=php:internal
+fn=php::trim
+90 0
+
+fl=php:internal
+fn=php::trim
+90 0
+
+fl=php:internal
+fn=php::flush
+113 224
+
+fl=/var/www/httpdocs/includes/header_template_new.php
+fn=include::/var/www/httpdocs/includes/header_template_new.php
+1 2265
+cfn=include_once::/var/www/httpdocs/classes/site.php
+calls=1 0 0
+3 5
+cfn=site->__construct
+calls=1 0 0
+4 2836
+cfn=curPageURL
+calls=1 0 0
+6 5
+cfn=site->drawHeader
+calls=1 0 0
+17 8
+cfn=site->getGlobalDescription
+calls=1 0 0
+53 0
+cfn=site->getGlobalKeywords
+calls=1 0 0
+54 0
+cfn=site->drawCSS
+calls=1 0 0
+61 25
+cfn=site->drawGlobalScripts
+calls=1 0 0
+66 45
+cfn=site->drawJQueryScripts
+calls=1 0 0
+69 11
+cfn=php::trim
+calls=1 0 0
+90 0
+cfn=php::trim
+calls=1 0 0
+90 0
+cfn=php::flush
+calls=1 0 0
+113 224
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 1
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 1
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 27
+cfn=php::microtime
+calls=1 0 0
+342 1
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 1392
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+10 68
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 1
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 1392
+
+fl=/var/www/httpdocs/includes/dbconfig.php
+fn=include::/var/www/httpdocs/includes/dbconfig.php
+1 3
+
+fl=php:internal
+fn=php::explode
+14 1
+
+fl=php:internal
+fn=php::sizeof
+15 0
+
+fl=php:internal
+fn=php::mysql_query
+64 1810
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 4
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+31 36
+cfn=php::mysql_query
+calls=1 0 0
+64 1810
+cfn=DB->debug
+calls=1 0 0
+66 4
+
+fl=php:internal
+fn=php::mysql_num_rows
+124 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->numRows
+32 14
+cfn=php::mysql_num_rows
+calls=1 0 0
+124 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+35 14
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=include_once::/var/www/httpdocs/components/_drawers.php
+1 0
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawSiteMap
+298 8
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawMainNavPro
+6 282
+cfn=site->drawSiteMap
+calls=1 0 0
+298 8
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 3
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 25
+cfn=php::microtime
+calls=1 0 0
+342 3
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 3
+
+fl=php:internal
+fn=php::mysql_select_db
+53 968
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+1092 65
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 3
+cfn=php::mysql_select_db
+calls=1 0 0
+53 968
+
+fl=php:internal
+fn=php::mysql_query
+140 1206
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+142 4
+
+fl=php:internal
+fn=php::mysql_fetch_object
+144 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->queryUniqueObject
+25 44
+cfn=php::mysql_query
+calls=1 0 0
+140 1206
+cfn=DB->debug
+calls=1 0 0
+142 4
+cfn=php::mysql_fetch_object
+calls=1 0 0
+144 5
+
+fl=/var/www/httpdocs/models/Users.php
+fn=Users->getxp
+1095 30
+cfn=DB->queryUniqueObject
+calls=1 0 0
+25 1260
+
+fl=php:internal
+fn=php::date
+1098 46
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawUserLevel
+1072 75
+cfn=DB->DB
+calls=1 0 0
+1092 1068
+cfn=Users->getxp
+calls=1 0 0
+1095 1290
+cfn=php::date
+calls=1 0 0
+1098 46
+
+fl=php:internal
+fn=php::trim
+1076 0
+
+fl=php:internal
+fn=php::trim
+1077 1
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawUserPanelPro
+7 33
+cfn=site->drawUserLevel
+calls=1 0 0
+1072 2480
+cfn=php::trim
+calls=1 0 0
+1076 0
+cfn=php::trim
+calls=1 0 0
+1077 1
+
+fl=php:internal
+fn=php::is_null
+37 1
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 1
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 33
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 1
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 979
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+39 63
+cfn=php::is_null
+calls=1 0 0
+37 1
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 37
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 979
+
+fl=php:internal
+fn=php::mysql_query
+64 1796
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 3
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+41 30
+cfn=php::mysql_query
+calls=1 0 0
+64 1796
+cfn=DB->debug
+calls=1 0 0
+66 3
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 11
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 25
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 11
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 32
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 980
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+52 86
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 36
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 980
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 2
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 5
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+53 66
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 2
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 5
+
+fl=php:internal
+fn=php::mysql_query
+64 1590
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 2
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+55 34
+cfn=php::mysql_query
+calls=1 0 0
+64 1590
+cfn=DB->debug
+calls=1 0 0
+66 2
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 12
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 25
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 12
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 1
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 1
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 67
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 1
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 1
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 22
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 74
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 10
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 24
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 10
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 64
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 18
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 66
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 14
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 49
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 46
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 16
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 1
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 1
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+59 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 184
+cfn=DB->DB
+calls=1 0 0
+52 1106
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+53 77
+cfn=DB->query
+calls=1 0 0
+55 1628
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 38
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 97
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 36
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 85
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 23
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 63
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 65
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 18
+cfn=DB->close
+calls=1 0 0
+59 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 20
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 15
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 44
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 47
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 21
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 46
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 44
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 47
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 1
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 46
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 1
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 14
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 49
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 47
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 46
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 25
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 988
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+52 65
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 28
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 988
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+53 65
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=php:internal
+fn=php::mysql_query
+64 1422
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 2
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+55 35
+cfn=php::mysql_query
+calls=1 0 0
+64 1422
+cfn=DB->debug
+calls=1 0 0
+66 2
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 12
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 26
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 12
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 2
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 65
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 2
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 27
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 68
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+59 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 107
+cfn=DB->DB
+calls=1 0 0
+52 1085
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+53 70
+cfn=DB->query
+calls=1 0 0
+55 1460
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 40
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 96
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 18
+cfn=DB->close
+calls=1 0 0
+59 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 44
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 1
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 1
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+45 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->build_drawers
+21 324
+cfn=DB->DB
+calls=1 0 0
+39 1085
+cfn=DB->query
+calls=1 0 0
+41 1829
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 37
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 3448
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 68
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 62
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 68
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 25
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 62
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 63
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 62
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 64
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 23
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 2876
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 23
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 63
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 24
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 64
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 18
+cfn=DB->close
+calls=1 0 0
+45 0
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 1
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 1
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 24
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 1
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 1
+
+fl=php:internal
+fn=php::mysql_select_db
+53 996
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+39 67
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 1
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 28
+cfn=php::mysql_connect
+calls=1 0 0
+52 1
+cfn=php::mysql_select_db
+calls=1 0 0
+53 996
+
+fl=php:internal
+fn=php::mysql_query
+64 1543
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 2
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+41 34
+cfn=php::mysql_query
+calls=1 0 0
+64 1543
+cfn=DB->debug
+calls=1 0 0
+66 2
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 12
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 25
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 12
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 1
+
+fl=php:internal
+fn=php::is_null
+46 1
+
+fl=php:internal
+fn=php::microtime
+342 1
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 25
+cfn=php::microtime
+calls=1 0 0
+342 1
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 1
+
+fl=php:internal
+fn=php::mysql_select_db
+53 1065
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+52 83
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 1
+cfn=php::is_null
+calls=1 0 0
+46 1
+cfn=DB->getMicroTime
+calls=1 0 0
+49 29
+cfn=php::mysql_connect
+calls=1 0 0
+52 1
+cfn=php::mysql_select_db
+calls=1 0 0
+53 1065
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 1
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+53 64
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 1
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=php:internal
+fn=php::mysql_query
+64 1479
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 3
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+55 30
+cfn=php::mysql_query
+calls=1 0 0
+64 1479
+cfn=DB->debug
+calls=1 0 0
+66 3
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 10
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 25
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 10
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 1
+
+fl=php:internal
+fn=php::substr
+33 1
+
+fl=php:internal
+fn=php::ucwords
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 65
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 1
+cfn=php::substr
+calls=1 0 0
+33 1
+cfn=php::ucwords
+calls=1 0 0
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 16
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 72
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 1
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 46
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 1
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+57 15
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 49
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 15
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+59 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 141
+cfn=DB->DB
+calls=1 0 0
+52 1183
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+53 69
+cfn=DB->query
+calls=1 0 0
+55 1513
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 36
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 88
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 25
+cfn=Drawers->buildDrawer
+calls=1 0 0
+57 65
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 16
+cfn=DB->close
+calls=1 0 0
+59 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 1
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 44
+cfn=php::urldecode
+calls=1 0 0
+30 1
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 14
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 1
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 1
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 14
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 48
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 15
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 45
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 21
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 46
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 15
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+45 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->build_drawers
+21 156
+cfn=DB->DB
+calls=1 0 0
+39 1096
+cfn=DB->query
+calls=1 0 0
+41 1580
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 38
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 3141
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 25
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 62
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 23
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 62
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 22
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 68
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 17
+cfn=DB->close
+calls=1 0 0
+45 0
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 1
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 27
+cfn=php::microtime
+calls=1 0 0
+342 1
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 990
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+39 67
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 990
+
+fl=php:internal
+fn=php::mysql_query
+64 1437
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 1
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+41 38
+cfn=php::mysql_query
+calls=1 0 0
+64 1437
+cfn=DB->debug
+calls=1 0 0
+66 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 11
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 26
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 11
+
+fl=php:internal
+fn=php::urldecode
+30 0
+
+fl=php:internal
+fn=php::str_replace
+31 1
+
+fl=php:internal
+fn=php::str_replace
+32 0
+
+fl=php:internal
+fn=php::strtolower
+33 1
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+62 64
+cfn=php::urldecode
+calls=1 0 0
+30 0
+cfn=php::str_replace
+calls=1 0 0
+31 1
+cfn=php::str_replace
+calls=1 0 0
+32 0
+cfn=php::strtolower
+calls=1 0 0
+33 1
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 18
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+62 72
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+45 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->build_drawers
+21 96
+cfn=DB->DB
+calls=1 0 0
+39 1091
+cfn=DB->query
+calls=1 0 0
+41 1478
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 39
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 90
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 18
+cfn=DB->close
+calls=1 0 0
+45 1
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 1
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 3
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 41
+cfn=php::microtime
+calls=1 0 0
+342 3
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 2
+
+fl=php:internal
+fn=php::mysql_select_db
+53 996
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+39 67
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 1
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 46
+cfn=php::mysql_connect
+calls=1 0 0
+52 2
+cfn=php::mysql_select_db
+calls=1 0 0
+53 996
+
+fl=php:internal
+fn=php::mysql_query
+64 1432
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 3
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+41 31
+cfn=php::mysql_query
+calls=1 0 0
+64 1432
+cfn=DB->debug
+calls=1 0 0
+66 3
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 12
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 24
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 12
+
+fl=php:internal
+fn=php::is_null
+37 0
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 1
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 3
+
+fl=php:internal
+fn=php::explode
+342 2
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 31
+cfn=php::microtime
+calls=1 0 0
+342 3
+cfn=php::explode
+calls=1 0 0
+342 2
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 1
+
+fl=php:internal
+fn=php::mysql_select_db
+53 991
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+52 79
+cfn=php::is_null
+calls=1 0 0
+37 0
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 1
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 37
+cfn=php::mysql_connect
+calls=1 0 0
+52 1
+cfn=php::mysql_select_db
+calls=1 0 0
+53 991
+
+fl=php:internal
+fn=php::urldecode
+30 1
+
+fl=php:internal
+fn=php::str_replace
+31 0
+
+fl=php:internal
+fn=php::str_replace
+32 1
+
+fl=php:internal
+fn=php::strtolower
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ucwords
+33 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->format_drawer_title
+53 64
+cfn=php::urldecode
+calls=1 0 0
+30 1
+cfn=php::str_replace
+calls=1 0 0
+31 0
+cfn=php::str_replace
+calls=1 0 0
+32 1
+cfn=php::strtolower
+calls=1 0 0
+33 0
+cfn=php::substr
+calls=1 0 0
+33 0
+cfn=php::ucwords
+calls=1 0 0
+33 0
+
+fl=php:internal
+fn=php::mysql_query
+64 1389
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 3
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+55 30
+cfn=php::mysql_query
+calls=1 0 0
+64 1389
+cfn=DB->debug
+calls=1 0 0
+66 3
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+56 13
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+59 1
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->buildDrawer
+43 89
+cfn=DB->DB
+calls=1 0 0
+52 1110
+cfn=Drawers->format_drawer_title
+calls=1 0 0
+53 70
+cfn=DB->query
+calls=1 0 0
+55 1422
+cfn=DB->fetchNextObject
+calls=1 0 0
+56 14
+cfn=DB->close
+calls=1 0 0
+59 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 1
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+42 23
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 1
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+45 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->build_drawers
+21 113
+cfn=DB->DB
+calls=1 0 0
+39 1113
+cfn=DB->query
+calls=1 0 0
+41 1467
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 37
+cfn=Drawers->buildDrawer
+calls=1 0 0
+43 2708
+cfn=DB->fetchNextObject
+calls=1 0 0
+42 25
+cfn=DB->close
+calls=1 0 0
+45 0
+
+fl=/var/www/httpdocs/components/_drawers.php
+fn=Drawers->getDrawers
+20 411
+cfn=Drawers->build_drawers
+calls=1 0 0
+21 10449
+cfn=Drawers->build_drawers
+calls=1 0 0
+21 6299
+cfn=Drawers->build_drawers
+calls=1 0 0
+21 2815
+cfn=Drawers->build_drawers
+calls=1 0 0
+21 5467
+
+fl=/var/www/httpdocs/includes/site_menu_popup_inc.php
+fn=include::/var/www/httpdocs/includes/site_menu_popup_inc.php
+1 245
+cfn=include_once::/var/www/httpdocs/components/_drawers.php
+calls=1 0 0
+2 0
+cfn=site->drawMainNavPro
+calls=1 0 0
+6 290
+cfn=site->drawUserPanelPro
+calls=1 0 0
+7 2516
+cfn=Drawers->getDrawers
+calls=1 0 0
+20 25443
+
+fl=php:internal
+fn=php::flush
+580 557
+
+fl=/var/www/httpdocs/includes/footer_ad_scripts.php
+fn=include::/var/www/httpdocs/includes/footer_ad_scripts.php
+1 4
+
+fl=php:internal
+fn=php::is_null
+37 1
+
+fl=php:internal
+fn=php::is_null
+40 0
+
+fl=php:internal
+fn=php::is_null
+43 0
+
+fl=php:internal
+fn=php::is_null
+46 0
+
+fl=php:internal
+fn=php::microtime
+342 2
+
+fl=php:internal
+fn=php::explode
+342 0
+
+fl=php:internal
+fn=php::floor
+343 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->getMicroTime
+49 26
+cfn=php::microtime
+calls=1 0 0
+342 2
+cfn=php::explode
+calls=1 0 0
+342 0
+cfn=php::floor
+calls=1 0 0
+343 0
+
+fl=php:internal
+fn=php::mysql_connect
+52 1
+
+fl=php:internal
+fn=php::mysql_select_db
+53 1007
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->DB
+184 77
+cfn=php::is_null
+calls=1 0 0
+37 1
+cfn=php::is_null
+calls=1 0 0
+40 0
+cfn=php::is_null
+calls=1 0 0
+43 0
+cfn=php::is_null
+calls=1 0 0
+46 0
+cfn=DB->getMicroTime
+calls=1 0 0
+49 30
+cfn=php::mysql_connect
+calls=1 0 0
+52 1
+cfn=php::mysql_select_db
+calls=1 0 0
+53 1007
+
+fl=php:internal
+fn=php::mysql_query
+64 17971
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->debug
+66 3
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->query
+194 32
+cfn=php::mysql_query
+calls=1 0 0
+64 17971
+cfn=DB->debug
+calls=1 0 0
+66 3
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 13
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 26
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 13
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 8
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 8
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 21
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 1
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 2
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 1
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 2
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 1
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 1
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 19
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 24
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 1
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 1
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 1
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 1
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 1
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 1
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 1
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 2
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 1
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 1
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 18
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 1
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 1
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 7
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 7
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 1
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 1
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 6
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 16
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 1
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 6
+
+fl=php:internal
+fn=php::explode
+197 0
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 1
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 5
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 19
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 5
+
+fl=php:internal
+fn=php::explode
+197 1
+
+fl=php:internal
+fn=php::trim
+198 0
+
+fl=php:internal
+fn=php::substr
+198 0
+
+fl=php:internal
+fn=php::trim
+199 0
+
+fl=php:internal
+fn=php::explode
+199 0
+
+fl=php:internal
+fn=php::trim
+201 0
+
+fl=php:internal
+fn=php::trim
+202 0
+
+fl=php:internal
+fn=php::substr
+204 0
+
+fl=php:internal
+fn=php::trim
+204 0
+
+fl=php:internal
+fn=php::trim
+205 0
+
+fl=php:internal
+fn=php::trim
+206 0
+
+fl=php:internal
+fn=php::mysql_num_rows
+112 0
+
+fl=php:internal
+fn=php::mysql_fetch_object
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->fetchNextObject
+196 17
+cfn=php::mysql_num_rows
+calls=1 0 0
+112 0
+cfn=php::mysql_fetch_object
+calls=1 0 0
+115 0
+
+fl=/var/www/httpdocs/includes/db.class.php
+fn=DB->close
+256 1
+
+fl=/var/www/httpdocs/classes/user.php
+fn=user->build_string
+146 6090
+cfn=DB->DB
+calls=1 0 0
+184 1119
+cfn=DB->query
+calls=1 0 0
+194 18007
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 41
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 26
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 29
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 1
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 2
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 2
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 26
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 1
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 19
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 26
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 30
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 26
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 1
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 1
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 26
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 23
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 1
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 1
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 1
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 2
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 23
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 24
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 1
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 1
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 1
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 1
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 0
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 1
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 25
+cfn=php::explode
+calls=1 0 0
+197 1
+cfn=php::trim
+calls=1 0 0
+198 0
+cfn=php::substr
+calls=1 0 0
+198 0
+cfn=php::trim
+calls=1 0 0
+199 0
+cfn=php::explode
+calls=1 0 0
+199 0
+cfn=php::trim
+calls=1 0 0
+201 0
+cfn=php::trim
+calls=1 0 0
+202 0
+cfn=php::substr
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+204 0
+cfn=php::trim
+calls=1 0 0
+205 0
+cfn=php::trim
+calls=1 0 0
+206 0
+cfn=DB->fetchNextObject
+calls=1 0 0
+196 17
+cfn=DB->close
+calls=1 0 0
+256 1
+
+fl=/var/www/httpdocs/classes/user.php
+fn=user->getString
+584 389
+cfn=user->build_string
+calls=1 0 0
+146 26853
+
+fl=/var/www/httpdocs/classes/site.php
+fn=site->drawMenuExtras
+586 1
+
+fl=/var/www/httpdocs/includes/footer_template_new.php
+fn=include::/var/www/httpdocs/includes/footer_template_new.php
+1 126
+cfn=php::flush
+calls=1 0 0
+580 557
+cfn=include::/var/www/httpdocs/includes/footer_ad_scripts.php
+calls=1 0 0
+582 4
+cfn=user->getString
+calls=1 0 0
+584 27242
+cfn=site->drawMenuExtras
+calls=1 0 0
+586 1
+
+fl=/var/www/httpdocs/404.php
+fn={main}
+
+summary: 83847
+
+0 1654
+cfn=include::/var/www/httpdocs/includes/init.php
+calls=1 0 0
+4 16947
+cfn=include::/var/www/httpdocs/includes/header_template_new.php
+calls=1 0 0
+7 5433
+cfn=DB->DB
+calls=1 0 0
+10 1495
+cfn=include::/var/www/httpdocs/includes/dbconfig.php
+calls=1 0 0
+11 3
+cfn=php::explode
+calls=1 0 0
+14 1
+cfn=php::sizeof
+calls=1 0 0
+15 0
+cfn=DB->query
+calls=1 0 0
+31 1850
+cfn=DB->numRows
+calls=1 0 0
+32 15
+cfn=DB->fetchNextObject
+calls=1 0 0
+35 15
+cfn=include::/var/www/httpdocs/includes/site_menu_popup_inc.php
+calls=1 0 0
+99 28495
+cfn=include::/var/www/httpdocs/includes/footer_template_new.php
+calls=1 0 0
+131 27932
+

@@ -1,0 +1,4 @@
+SELECT * from panel_email.emailtodb_email as re 
+		  join panel_panel.users as u on re.EmailFrom=u.email
+		   join panel_email.emailtodb_attach as a on a.IDEmail=re.ID
+		  where re.Status=0<br/><br/>

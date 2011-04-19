@@ -1,0 +1,144 @@
+
+#uploadModal{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    top: 400px; left: 0px;
+}
+.modalupload
+{
+	background-color:#9AB9E7;
+    border: solid 4px black; position: relative;
+    top: 150px;
+    left: -150px;
+    z-index: 1000;
+    width: 350px;
+    height: 85px;
+    padding: 0px;
+}
+.uploadContainer {
+  position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    z-index: 750;
+
+}
+
+.uploadTop
+{
+    width: 342px;
+    background-color: #0066FF;
+    padding: 4px;
+    color: #ffffff;
+    text-align: left;
+}
+.uploadTop a, .uploadTop a:visited
+{
+    color: #000000;
+}
+.uploadBody
+{
+    padding: 10px;
+}
+
+
+#rgModal{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 300px; left: 0px;
+}
+.modalrg
+{
+    background-color: #dc762f;
+    border: solid 4px black; position: relative;
+    top: 150px;
+    left: -150px;
+    z-index: 1000;
+    width: 250px;
+    height: 150px;
+    padding: 0px;
+}
+.rgContainer {
+  position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    z-index: 750;
+
+}
+
+.rgTop
+{
+    width: 242px;
+    background-color: #ffb27b;
+    padding: 4px;
+    color: #000000;
+    text-align: left;
+}
+.rgTop a, .rgTop a:visited
+{
+    color: #000000;
+}
+.rgBody
+{
+    padding: 10px;
+}
+
+
+#scriptModal{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 100px; left: 0px;
+}
+.modalscript
+{
+    background-color: #9fbbd7;
+    border: solid 4px black; position: relative;
+    top:-100px;
+    left: -250px;
+    z-index: 1000;
+    width: 535px;
+    height: 550px;
+    padding: 0px;
+}
+.scriptContainer {
+  position: absolute;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    z-index: 750;
+
+}
+
+.scriptTop
+{
+    width: 527px;
+    background-color: #185591;
+    padding: 4px;
+    color: #ffffff;
+    text-align: left;
+}
+.scriptTop a, .scriptTop a:visited
+{
+    color: #fffff;
+}
+.scriptBody
+{
+    padding: 10px;
+}
+
+
+.modalBackground
+{
+    filter: Alpha(Opacity=70); -moz-opacity:0.4; opacity: 0.4;
+    width: 100%; height: 1280px; background-color: #666666;
+    position: absolute;
+    z-index: 500;
+    top: 0px; left: 0px;
+}

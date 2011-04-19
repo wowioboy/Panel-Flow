@@ -1,0 +1,17 @@
+DELETE from pf_hotspots where EncryptID='a3c65c296c' and ComicID='15d4e8911b9'
+
+SELECT AppInstallation from comics where comiccrypt ='15d4e8911b9'
+
+SELECT * from comic_settings where ComicID ='15d4e8911b9'
+
+SELECT * from Applications where ID ='0'
+
+UPDATE users set ConnectKey='18xNHcknkEc0UpO4UmWq' where encryptid='f5f8590c1c2'
+
+AP LINK = http://www.needcomics.com/panelflow/
+
+FROM IMPORT = EXPORT HOTSPOT = a:5:{s:8:"ascoords";s:0:"";s:9:"mapcoords";s:0:"";s:7:"rgentry";s:0:"";s:6:"PageID";s:0:"";s:8:"htmlcode";s:0:"";}
+
+<br/>MY ACTION = deleteDELETE from pf_hotspots WHERE EncryptID='a3c65c296c'<br/><br/>FinishedFILE = ../emaillogs/HOTSPOT_2009_08_10_0404_0808_1212.txt
+
+

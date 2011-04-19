@@ -1,0 +1,12 @@
+<template>
+	<information>
+		<author>Matt Jacobs</author>
+		<title>Lefthand</title>
+		<controlcolor>0x000000</controlcolor>
+		<titlecolor>0xFFFFFF</titlecolor>
+		<backgroundcolor>0x5A5F73</backgroundcolor>
+		<buttonarrowcolor>0x000000</buttonarrowcolor>
+		<buttoncolor>0x990000</buttoncolor>
+		<adpositions>1,2,4,5</adpositions>
+	</information>
+</template>

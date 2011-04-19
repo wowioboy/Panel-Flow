@@ -1,0 +1,28 @@
+INSTALL INSTRUCTIONS
+
+PANEL FLOW PRO V1.5 
+-------------------------------------------------
+
+Thanks for installing Panel Flow. We hope you find this product useful and enjoy the experiece of creating your own web comic. 
+
+Below are a few simple instructions to get you up and going quickly. 
+
+1) If you have this product, then you've purchased a copy of the application off the website so you already have a user account. If not, then please visit http://www.panelflow.com/register.php to register for a creator account and purchase a copy of the application.
+
+2) Upload the contents of the Zip file to your server. 
+
+3) After all files are on your server, simply enter the url to the Panel Flow install in your web browser. If for any reason you don't see a BIG 'INSTALL' button on the next screen, you can also go straight to the install folder, for example : http://www.mydomain.com/myfolder/install
+
+4) Click install to start the install process. The first step is to enter the email and password for your current Panel Flow User Account. 
+
+5) Enter the Name for your comic (YOU CAN'T CHANGE THIS AFTER INSTALL) and the directory you want to install a comic into. 
+
+6) The last step is to upload an image to use for your comic. You can upload any image and you will be given a cropping tool to select a cover. This will also be shown on the Panel Flow comics directory. 
+
+7) That's it! Now you can start creating comics and uploading pages! 
+
+8) Feel free to create your own template for your comic. Just keep the PHP includes for the modules you want to keep. Also do not touch any of the calls back to the Panel Flow site, this will cause your comic not to run correctly. 
+
+9) If you have any techinical issues, check the F.A.Q. on our website, or if you're a pro user, email us at support@panelflow.com and someone will get back to you shortly.
+
+10) Have fun!

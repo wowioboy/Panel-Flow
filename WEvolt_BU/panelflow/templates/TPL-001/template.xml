@@ -1,0 +1,12 @@
+<template>
+	<information>
+		<author>Matt Jacobs</author>
+		<title>Standard</title>
+		<controlcolor>0x000000</controlcolor>
+		<titlecolor>0xFFFFFF</titlecolor>
+		<backgroundcolor>0xFFFFFF</backgroundcolor>
+		<buttonarrowcolor>0x000000</buttonarrowcolor>
+		<buttoncolor>0xFDA96D</buttoncolor>
+		<adpositions>1,2,3,4,5</adpositions>
+	</information>
+</template>
